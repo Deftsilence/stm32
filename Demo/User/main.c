@@ -40,29 +40,28 @@ int main(void)
   while (1)
    {
 		GPIO_ResetBits(GPIOA,GPIO_Pin_0);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_1);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_3);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_2);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_1);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_1);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_3);
 		GPIO_SetBits(GPIOC,GPIO_Pin_2);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_3);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_4);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_5);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_6);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_7);
+		GPIO_SetBits(GPIOC,GPIO_Pin_1);
+		GPIO_SetBits(GPIOC,GPIO_Pin_2);
+		GPIO_SetBits(GPIOC,GPIO_Pin_3);
+		GPIO_SetBits(GPIOC,GPIO_Pin_4);
+		GPIO_SetBits(GPIOC,GPIO_Pin_5);
+		GPIO_SetBits(GPIOC,GPIO_Pin_6);
+		GPIO_SetBits(GPIOC,GPIO_Pin_7);
 		Delay(0x0fffff);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_1);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_3);
-//		Delay(0x00fff);
-//		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
-//		GPIO_SetBits(GPIOC,GPIO_Pin_1);
-//		Delay(0xffffff);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_1);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_3);
+		Delay(0x00fff);
+		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
+		GPIO_SetBits(GPIOC,GPIO_Pin_1);
+		Delay(0xffffff);
 		GPIO_ResetBits(GPIOC,GPIO_Pin_2);
 		Delay(0x0fffff);
-		
    }
 }
 
